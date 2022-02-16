@@ -129,6 +129,8 @@ class App extends Component {
         <div className='App'>
           <h1>REIS</h1>
           <h2>Destination Travel Log</h2>
+          <h3>Add a New Destination: </h3>
+          <NewForm baseURL={baseURL} addTravel={this.addTravels}/>
           <table>
             <tbody>
               {this.state.travels.map((travel, i)=>{
@@ -151,15 +153,11 @@ class App extends Component {
       })}
     </tbody>
     </table>
-    <h3>
-    Add a New Destination:
-    </h3>
-    <NewForm baseURL={baseURL} addTravel={this.addTravels}/>
-
-
+    
     {
         this.state.modalOpen &&
-
+        <>
+        <h3>Edit a Destination: </h3>
         <form onSubmit={this.handleSubmit}>
           <label>City Name:  </label>
           <input name='city' value={this.state.city}
@@ -171,6 +169,8 @@ class App extends Component {
           <br/>
           <button> Submit </button>
         </form>
+        </>
+
       }
         </div>
       </>
