@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# R E I S
+The purpose of CHEW is to solve a problem that many buisness have, a terrible website. Chew is a website templating service for all different types of restaurants.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CHEW allows you to select a website and have the restaurant details and menu populate in the appropriate sections of the page. You are also able to make reservations for a party of however many people you want to the restaurant.
 
-## Available Scripts
+We will be specifically using asian themed restaurants for the project.
 
-In the project directory, you can run:
 
-### `npm start`
+## Wireframes
+![Screen Shot 2022-01-31 at 8 13 59 AM](https://user-images.githubusercontent.com/24789142/151809180-9e90dec2-1389-466f-a8f9-662a1422b267.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screen Shot 2022-01-31 at 8 14 09 AM](https://user-images.githubusercontent.com/24789142/151809191-642af9cb-9a8f-4340-922c-d1e531328320.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screen Shot 2022-01-31 at 8 14 14 AM](https://user-images.githubusercontent.com/24789142/151809204-1210dddc-73fe-41a6-ad3c-088d2d32e29d.png)
 
-### `npm test`
+![Screen Shot 2022-01-31 at 8 14 19 AM](https://user-images.githubusercontent.com/24789142/151809213-a9e94627-aa21-4956-b72d-7a2123be0634.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Stories
 
-### `npm run build`
+<img width="348" alt="Screen Shot 2022-01-30 at 5 29 42 PM" src="https://user-images.githubusercontent.com/24789142/151808973-6f467a9d-5bc5-424a-b318-dd216a2fee07.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## TECH/FRAMEWORKS USED
+  JAVASCRIPT
+  HTML
+  CSS
+    (SASS)
+  HEROKU
+  MONGOOSE
+  REACT
+  EXPRESS 
+  ATLAS
+  MONGODB
+  MERN STACK
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## FEATURES
+We have created a feature on our app that allows you to make a reservation to a restarant for you and some friends.
 
-### `npm run eject`
+## HOW TO USE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can use this app by scrolling through the website and viewing the menu items as well as making a reservation for you and some guests at the bottom of the site
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## CODE EXAMPLES
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="359" alt="Screen Shot 2022-01-31 at 10 58 27 AM" src="https://user-images.githubusercontent.com/24789142/151838326-c847e369-f583-454b-8913-1fe66b5413a8.png">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## CREDITS
 
-### Analyzing the Bundle Size
+### Heroku Deployment Link:
+https://chew-frontend.herokuapp.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Backend Link:
+https://chew-backend.herokuapp.com/
