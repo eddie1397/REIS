@@ -126,11 +126,14 @@ class App extends Component {
   render(){
     return (
       <>
-        <div className='App'>
-          <h1>REIS</h1>
+        <div className='App' >
+          <div className='hero-container'>
+          <h1 className='title'>R E I S</h1>
           <h2>Destination Travel Log</h2>
           <h3>Add a New Destination: </h3>
           <NewForm baseURL={baseURL} addTravel={this.addTravels}/>
+          </div>
+          <div className='items-container'>
           <table>
             <tbody>
               {this.state.travels.map((travel, i)=>{
@@ -143,17 +146,17 @@ class App extends Component {
                     <td> {travel.likes}</td>
                     <td> {travel.description}</td>
 
-                    <td onClick={()=> this.addFave(travel)}>💖</td>
-                    <td onClick={()=> this.addNote(travel)}>📚</td>
-                    <td onClick={()=>this.showEditForm(travel)}>Edit Destination</td>
-                    <td onClick={()=> this.deleteTravel(travel._id)}>❌</td>
+                    <td  onClick={()=> this.addFave(travel)}><i class="material-icons fav-icon">favorite</i></td>
+                    <td onClick={()=>this.showEditForm(travel)}><i class="material-icons edit-icon">edit</i></td>
+                    <td onClick={()=> this.deleteTravel(travel._id)}><i class="material-icons clear-icon">clear</i></td>
                   </tr>
 
         )
       })}
     </tbody>
     </table>
-    
+
+
     {
         this.state.modalOpen &&
         <>
@@ -163,16 +166,22 @@ class App extends Component {
           <input name='city' value={this.state.city}
           onChange={this.handleChange}/>
           <br/>
+          <br/>
           <label>Description:  </label>
-          <input name='description' value={this.state.description}
+          <input name='description' type='text-area' value={this.state.description}
           onChange={this.handleChange}/>
+          <br/>
           <br/>
           <button> Submit </button>
         </form>
+        <br/>
+        <br/>
+        <br/>
         </>
 
       }
-        </div>
+      </div>
+    </div>
       </>
     );
   }

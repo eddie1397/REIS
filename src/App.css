@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+}
+@keyframes bg-animation {
+  0% {background-position: left}
+  100% {background-position: right}
+
+
 }
 
 
@@ -21,4 +34,71 @@ td {
 }
 .celerated {
   color: slateblue;
+}
+
+body {
+
+  /* background-image: linear-gradient(
+    45deg,
+    #a68a64,
+    #a68a64,
+    #c2c5aa,
+    #414833
+    ); */
+    background-image: linear-gradient(
+      45deg,
+      #ffbcd9,
+      #fff4fa,
+      #bfe1ff,
+      #ffc9e0
+      );
+
+
+    background-size: 400%;
+    animation: bg-animation 18s infinite alternate;
+
+}
+
+.hero-container{
+
+  background: rgba( 255, 255, 255, 0.35 );
+  /* box-shadow: 0 4px 10px 0 lavender; */
+  backdrop-filter: blur( 16.5px );
+  -webkit-backdrop-filter: blur( 16.5px );
+  border-radius: 10px;
+  border: 1px solid gray;
+
+  padding: 25px;
+  margin: 20px;
+}
+.title{
+  /* position: absolute; */
+  font-size: 60px;
+
+}
+
+.items-container{
+  background: rgba( 255, 255, 255, 0.45 );
+  /* box-shadow: 0 4px 10px 0 lavender; */
+  backdrop-filter: blur( 16.5px );
+  -webkit-backdrop-filter: blur( 16.5px );
+  border-radius: 10px;
+  border: 1px solid gray;
+
+  padding: 25px;
+  margin: 15px;
+
+  cursor: pointer;
+
+}
+.fav-icon{
+  color: pink;
+}
+
+.edit-icon{
+  color: gray;
+}
+
+.clear-icon{
+  color: red;
 }
