@@ -1,8 +1,8 @@
 import NewForm from './components/NewForm'
 import './App.css';
 import React, { Component } from 'react';
-let baseURL = 'http://localhost:3003';
-
+let baseURL = process.env.REACT_APP_BASEURL;
+console.log(baseURL);
 
 class App extends Component {
   constructor(props){
