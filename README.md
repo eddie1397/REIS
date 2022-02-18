@@ -1,23 +1,15 @@
 # R E I S
-The purpose of CHEW is to solve a problem that many buisness have, a terrible website. Chew is a website templating service for all different types of restaurants.
+The purpose of REIS is to solve the problem of having a travel Diary. Every year we take acouple of trip to places that we love. Imagine being able to log everything you did through notes and pictures. Thats where REIS comes in, REIS makes it easy for yu to store all of your memories in one simple place. 
 
-CHEW allows you to select a website and have the restaurant details and menu populate in the appropriate sections of the page. You are also able to make reservations for a party of however many people you want to the restaurant.
-
-We will be specifically using asian themed restaurants for the project.
-
+REIS allows you to add a destination to your list. Later on I will be implimenting a feature where you will be able to add photos and videos as well as likes in to a specific trip.
 
 ## Wireframes
-![Screen Shot 2022-01-31 at 8 13 59 AM](https://user-images.githubusercontent.com/24789142/151809180-9e90dec2-1389-466f-a8f9-662a1422b267.png)
+<img width="736" alt="Screen Shot 2022-02-08 at 4 41 39 PM" src="https://user-images.githubusercontent.com/24789142/154681970-7204b30f-431d-42b0-ba2e-b9b81ddb4ab4.png">
 
-![Screen Shot 2022-01-31 at 8 14 09 AM](https://user-images.githubusercontent.com/24789142/151809191-642af9cb-9a8f-4340-922c-d1e531328320.png)
-
-![Screen Shot 2022-01-31 at 8 14 14 AM](https://user-images.githubusercontent.com/24789142/151809204-1210dddc-73fe-41a6-ad3c-088d2d32e29d.png)
-
-![Screen Shot 2022-01-31 at 8 14 19 AM](https://user-images.githubusercontent.com/24789142/151809213-a9e94627-aa21-4956-b72d-7a2123be0634.png)
 
 ## User Stories
 
-<img width="348" alt="Screen Shot 2022-01-30 at 5 29 42 PM" src="https://user-images.githubusercontent.com/24789142/151808973-6f467a9d-5bc5-424a-b318-dd216a2fee07.png">
+<img width="420" alt="Screen Shot 2022-02-08 at 4 42 04 PM" src="https://user-images.githubusercontent.com/24789142/154682018-99a339ec-a5de-45de-8c48-b7b43ff43e45.png">
 
 
 ## TECH/FRAMEWORKS USED
@@ -31,28 +23,19 @@ We will be specifically using asian themed restaurants for the project.
   EXPRESS 
   ATLAS
   MONGODB
-  MERN STACK
+  MERN STACK APPLICATION
 
 ## FEATURES
-We have created a feature on our app that allows you to make a reservation to a restarant for you and some friends.
+I have created a feature where you can add different destinations to a specific destination list. Later on I plan on implimenting more feature like logging in, adding likes and incoperating pictures and video media into the site.
 
 ## HOW TO USE
 
-You can use this app by scrolling through the website and viewing the menu items as well as making a reservation for you and some guests at the bottom of the site
-
-
-## CODE EXAMPLES
-
-<img width="359" alt="Screen Shot 2022-01-31 at 10 58 27 AM" src="https://user-images.githubusercontent.com/24789142/151838326-c847e369-f583-454b-8913-1fe66b5413a8.png">
-
-
-
-
+You can start using this app by scrolling through the website and viewing the destinations as well as adding your own. You can adda adestination by scrolling to the top of teh site and adding info into the 'Add New Destination Section
 
 ## CREDITS
 
 ### Heroku Deployment Link:
-https://chew-frontend.herokuapp.com/
+https://reis-frontend.herokuapp.com/
 
 ### Backend Link:
-https://chew-backend.herokuapp.com/
+https://reis-backend.herokuapp.com/
